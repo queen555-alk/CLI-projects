@@ -38,10 +38,3 @@ while True:
     except ValueError:
         print("That is not a valid number. Please try again.")
         continue
-
-    if choice == "/" and num2 == 0:
-        print("You cannot divide by zero.")
-        continue
-
-    result = calculate(num1, choice, num2)
-    print(f"Result: {num1} {choice} {num2} = {result}")
